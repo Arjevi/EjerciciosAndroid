@@ -11,7 +11,7 @@ import android.widget.Button;
 
 public class MainActivity extends ActionBarActivity {
 
-    private Button bt_1, bt_2, bt_3,bt_4;
+    private Button bt_1, bt_2, bt_3,bt_4,bt_5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
