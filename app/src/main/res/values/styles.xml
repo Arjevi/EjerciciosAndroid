@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="estilo_editText">
+
+        <item name="android:background">#C5EFF7</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_margin">5dp</item>
+
+    </style>
+
+    <style name="estilo_botton">
+
+        <item name="android:background">@drawable/style_buttom</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">5dp</item>
+
+    </style>
+</resources>

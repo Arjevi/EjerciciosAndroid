@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Ejercicios Android</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="ejercicio1">Ejercicio 1</string>
+    <string name="ejercicio2">Ejercicio 2</string>
+    <string name="ejercicio3">Ejercicio 3</string>
+    <string name="ejercicio4">Ejercicio 4</string>
+    <string name="title_activity_ejercicio1">Ejercicio 1</string>
+
+    <!-- EJERECICIO 1 ACTIVITY -->
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellido">Apellido</string>
+    <string name="hint_edad">Edad</string>
+    <string name="hint_dia">Día</string>
+    <string name="hint_mes">Mes</string>
+    <string name="hint_year">Año</string>
+    <string name="button_validar">Validar</string>
+    <string name="check_terminos">Acepto los términos</string>
+    <string name="check_eso">ESO</string>
+    <string name="check_grado">GRADO</string>
+    <string name="check_universidad">UNIVERSIDAD</string>
+    <string name="radio_hombre">Hombre</string>
+    <string name="radio_mujer">Mujer</string>
+    <string name="lbl_fecha">Fecha</string>
+    <string name="title_activity_ejercicio2">Ejercicio 2</string>
+
+    <!-- EJERECICIO 2 ACTIVITY -->
+    <string name="radio_si">Si</string>
+    <string name="radio_no">No</string>
+    <string name="button_aceptar">Aceptar</string>
+    <string name="title_activity_ejercicio3">Ejercicio3Activity</string>
+
+    <!-- EJERECICIO 3 ACTIVITY -->
+    <string name="text_view_lista">Lista personalizable</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtDescripcion">Descripcion</string>
+    <string name="txtPrecio">Precio</string>
+    <string name="title_activity_ejercicio4">Ejercicio4Activity</string>
+
+    <!-- EJERECICIO 4 ACTIVITY -->
+    <string name="bt_comenzar">Comenzar pedido</string>
+    <string name="bt_salir">Salir</string>
+    <string name="title_activity_ejercicio4_1">Ejercicio4_1Activity</string>
+
+    <!-- EJERECICIO 4_1 ACTIVITY -->
+    <string name="lbl_tam">Selecciona un tamaño:</string>
+    <string name="lbl_precio">Precio:</string>
+    <string name="bt_atras">Atras</string>
+    <string name="bt_siguiente">Siguiente</string>
+    <string name="title_activity_ejercicio4_2">Ejercicio4_2Activity</string>
+</resources>
