@@ -3,12 +3,16 @@ package es.arjevi.ejerciciosandroid;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Toast;
+
+import Clases.Pedido;
 
 
 public class Ejercicio4_1Activity extends ActionBarActivity {
@@ -44,7 +48,11 @@ public class Ejercicio4_1Activity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
 
+                String tamSelected = spinner.getSelectedItem().toString();
+
+                Pedido p = new Pedido(tamSelected,"",null,null,0);
                 Intent i = new Intent(getApplicationContext(),Ejercicio4_2Activity.class);
+                i.putExtra("pedido", p);
                 startActivity(i);
             }
         });

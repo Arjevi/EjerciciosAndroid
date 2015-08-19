@@ -52,4 +52,12 @@
     <string name="bt_atras">Atras</string>
     <string name="bt_siguiente">Siguiente</string>
     <string name="title_activity_ejercicio4_2">Ejercicio4_2Activity</string>
+
+    <!-- EJERECICIO 4_2 ACTIVITY -->
+    <string name="btn_pedido">Ver pedido</string>
+    <string name="lbl_masa">Tipo de masa:</string>
+    <string name="check_fina">Fina</string>
+    <string name="check_gruesa">Gruesa</string>
+    <string name="check_queso">Borde queso</string>
+    <string name="check_calzone">Calzone</string>
 </resources>
