@@ -1,9 +1,12 @@
 package Clases;
 
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.util.ArrayList;
 
-public class Pedido {
+public class Pedido implements Parcelable{
 
     private String tamano;
     private String masa;
@@ -22,6 +25,23 @@ public class Pedido {
 
     }
 
+    public Pedido (Parcel in){
+        this.tamano = in.readString();
+        this.masa = in.readString();
+        in.readStringList(this.lista_ingredientes);
+        in.readTypedList(this.lista_complemento,Complemento.CREATOR);
+    }
+
+    public static final Parcelable.Creator<Pedido> CREATOR
+            = new Parcelable.Creator<Pedido>() {
+        public Pedido createFromParcel(Parcel in) {
+            return new Pedido(in);
+        }
+
+        public Pedido[] newArray(int size) {
+            return new Pedido[size];
+        }
+    };
     public double getPrecio() {
         return precio;
     }
@@ -60,6 +80,21 @@ public class Pedido {
 
     public void setLista_complemento(ArrayList<Complemento> lista_complemento) {
         this.lista_complemento = lista_complemento;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+
+        dest.writeString(this.tamano);
+        dest.writeString(this.masa);
+        dest.writeStringList(this.lista_ingredientes);
+        dest.writeTypedList(this.lista_complemento);
+        dest.writeDouble(this.precio);
     }
 }
 
